@@ -4,6 +4,7 @@ const count = document.getElementById('count');
 const total = document.getElementById('total');
 const movieSelect = document.getElementById('movie');
 
+// poopulate data on browser reload
 populateUi();
 
 let ticketPrice = parseInt(movieSelect.value); // can also add + inplace of parseInt( )
